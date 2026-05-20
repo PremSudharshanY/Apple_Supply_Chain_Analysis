@@ -1,4 +1,4 @@
-# 🍎 Apple Supply Chain Analytics Dashboard  
+#  Apple Supply Chain Analytics Dashboard  
 
 <p align="center">
   <img src="https://img.shields.io/badge/PowerBI-Dashboard-black?style=for-the-badge&logo=powerbi" />
