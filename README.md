@@ -10,19 +10,28 @@
 ---
 
 ## 📌 Overview
-This project delivers an **end-to-end business analysis** of Apple supply chain operations.  
-It focuses on extracting actionable insights into **revenue growth, profit trends, supplier performance, inventory optimization, and logistics efficiency** using industry-standard analytics tools.
+This project presents a complete **Supply Chain Analytics Dashboard** for Apple, designed to analyze operational performance and business growth using **Power BI, SQL, Python, and Excel**.
+
+The dashboard focuses on:
+- 📈 Revenue & Profit Growth  
+- 📦 Order & Shipment Performance  
+- 🚚 Logistics Efficiency  
+- 🏭 Supplier Performance  
+- 📊 Inventory Optimization  
+- 👥 Regional & Customer Demand Trends  
+
+The primary objective of this project is to monitor **Month-on-Month business growth**, optimize operational efficiency, and support strategic decision-making through interactive analytics.
 
 ---
 
 ## 🎯 Objectives
-- Analyze **monthly revenue & profit growth**  
-- Monitor **order trends and shipment performance**  
-- Evaluate **supplier efficiency and delays**  
-- Track **inventory turnover and stock movement**  
-- Monitor **delivery efficiency and logistics performance**  
-- Understand **customer demand trends**  
-- Improve **operational decision-making**
+- Analyze monthly revenue and profit growth
+- Monitor order volume and shipment performance
+- Evaluate supplier efficiency and delays
+- Track inventory turnover and stock movement
+- Measure logistics and delivery performance
+- Understand regional demand patterns
+- Improve supply chain decision-making using analytics
 
 ---
 
@@ -30,99 +39,113 @@ It focuses on extracting actionable insights into **revenue growth, profit trend
 
 | Metric | Value |
 |------|------|
-| 💰 Total Revenue | ₹196M |
-| 📈 Revenue Growth | +18.4% MoM |
-| 💵 Total Profit | ₹58M |
-| 📊 Profit Growth | +12.7% MoM |
-| 📦 Total Orders | 378K |
-| 🛒 Order Growth | +9.2% MoM |
-| 🚚 Avg Delivery Time | 4.2 Days |
-| ⚠️ Delayed Shipment Rate | 1.8% |
-| 🏭 Active Suppliers | 145 |
-| 📦 Inventory Turnover | 7.9 |
+| 💰 Total Revenue | ₹87.46bn |
+| 💵 Total Profit | ₹39.72bn |
+| 📦 Total Orders | 950K |
+| 🛒 Units Sold | 124M |
+| 📈 Revenue Growth | +10.28% |
+| 📊 Profit Growth | +10.36% |
+| 📦 Order Growth | +8.60% |
+| 🚚 Avg Transit Time | 5 Days |
+| 🚛 On-Time Delivery | 86% |
+| 🏭 Supplier Fulfillment Rate | 85.21% |
 
 ---
 
 ## 🛠️ Tools & Technologies
-- 🗄️ **SQL** → Data extraction & business queries  
-- 🐍 **Python** → Data cleaning & exploratory analysis  
-- 📊 **Power BI** → Interactive dashboard development  
-- 📗 **Excel** → Data preprocessing  
+- 🗄️ **SQL** → Data extraction and business analysis  
+- 🐍 **Python** → Data cleaning and exploratory analysis  
+- 📊 **Power BI** → Interactive dashboard development and DAX calculations  
+- 📗 **Excel** → Data preprocessing and formatting  
 
 ---
 
 ## 📈 Key Insights
 
-### 🏭 Supplier Performance
-- Top suppliers maintained high fulfillment efficiency  
-- Supplier delays directly impacted shipment performance  
-- Certain suppliers contributed higher operational costs  
-
----
-
 ### 💰 Revenue & Profit Analysis
-- Strong month-on-month revenue growth observed  
-- Profit margins improved steadily across the period  
-- Seasonal demand contributed to revenue spikes  
-
----
-
-### 🚚 Logistics Analysis
-- Delivery efficiency maintained successfully  
-- Delayed shipment percentage remained below industry average  
-- Logistics optimization improved operational performance  
+- Revenue growth increased steadily throughout the year
+- Profit margins improved during high-demand months
+- North America generated the highest revenue contribution
+- Sea transport contributed the largest shipping revenue share
 
 ---
 
 ### 📦 Inventory Analysis
-- Inventory turnover maintained efficiently  
-- Overstock identified in low-demand products  
-- Stock planning improved warehouse operations  
+- High stock products dominated inventory distribution
+- Overstock cost reached significant levels in low-demand items
+- Inventory turnover improved during Q4
+- North America maintained the highest inventory value
 
 ---
 
-### 👥 Order & Customer Analysis
-- Order volume increased consistently over time  
-- Weekend demand outperformed weekdays  
-- Strong customer engagement and repeat orders observed  
+### 🏭 Supplier Analysis
+- Foxconn and Luxshare Precision were top-performing suppliers
+- Supplier efficiency directly impacted operational performance
+- Supplier ratings remained consistently high across regions
+- Certain suppliers contributed higher operational spend
+
+---
+
+### 🚚 Logistics & Delivery Analysis
+- On-time delivery performance maintained at 86%
+- Average transit time remained around 5 days
+- Air and Sea transport modes handled the majority of shipments
+- Regional shipment performance remained operationally stable
+
+---
+
+### 📈 Business Growth Summary
+- Revenue growth reached 10.28%
+- Profit growth reached 10.36%
+- Order growth increased by 8.60%
+- Operational KPIs showed stable business expansion
 
 ---
 
 ## 📷 Dashboard Screenshots
 
-### 📌 Executive Overview Dashboard
+### 📌 Overview Dashboard
+Displays overall business performance including revenue, profit, orders, regional sales contribution, and shipping mode analysis.  
+Provides a complete snapshot of operational health and revenue trends across different business regions.
 
-<img width="1538" height="867" alt="Executive Overview Dashboard" src="PASTE_IMAGE_LINK_HERE" />
-
----
-
-### 📈 Revenue & Profit Dashboard
-
-<img width="1539" height="866" alt="Revenue and Profit Dashboard" src="PASTE_IMAGE_LINK_HERE" />
+<img width="1538" height="867" alt="Overview Dashboard" src="<img width="1539" height="866" alt="Screenshot 2026-05-20 141814" src="https://github.com/user-attachments/assets/0cbeb89c-7a18-4e93-8dd3-265ad105a3e4" />
+" />
 
 ---
 
-### 📦 Orders & Customer Dashboard
+### 📦 Inventory Analysis Dashboard
+Analyzes inventory value, stock distribution, inventory aging, and inventory turnover trends.  
+Helps identify overstock and low-stock products while improving warehouse planning and inventory optimization.
 
-<img width="1539" height="862" alt="Orders and Customer Dashboard" src="PASTE_IMAGE_LINK_HERE" />
-
----
-
-### 🚚 Logistics Dashboard
-
-<img width="1537" height="860" alt="Logistics Dashboard" src="PASTE_IMAGE_LINK_HERE" />
+<img width="1538" height="860" alt="Inventory Dashboard" src="<img width="1537" height="860" alt="Screenshot 2026-05-20 141847" src="https://github.com/user-attachments/assets/5cc2e86b-8164-4de7-b594-2079cbe38619" />
+" />
 
 ---
 
-### 🏭 Supplier Performance Dashboard
+### 🏭 Supplier Analysis Dashboard
+Provides insights into supplier performance, supplier ratings, supplier spending, and revenue contribution by supplier region.  
+Highlights top-performing suppliers and monitors operational supplier efficiency.
 
-<img width="1538" height="860" alt="Supplier Performance Dashboard" src="PASTE_IMAGE_LINK_HERE" />
+<img width="1538" height="860" alt="Supplier Dashboard" src="<img width="1537" height="862" alt="Screenshot 2026-05-20 141955" src="https://github.com/user-attachments/assets/cfd26d9f-ce04-4fba-b0bd-63b1102e355d" />
+" />
 
 ---
 
-### 📦 Inventory Dashboard
+### 🚚 Logistics & Delivery Dashboard
+Tracks shipment performance, delivery efficiency, transit time analysis, and transport mode contribution.  
+Supports logistics optimization through shipment trend monitoring and on-time delivery analysis.
 
-<img width="1538" height="860" alt="Inventory Dashboard" src="PASTE_IMAGE_LINK_HERE" />
+<img width="1537" height="860" alt="Logistics Dashboard" src="<img width="1539" height="861" alt="Screenshot 2026-05-20 142028" src="https://github.com/user-attachments/assets/accaecbd-dabb-4885-a820-dcf85e465a3a" />
+" />
+
+---
+
+### 📈 Summary Dashboard
+Presents a complete overview of business growth including revenue growth, profit growth, order growth, inventory performance, and supplier KPIs.  
+Provides quick insights into overall supply chain performance and operational trends.
+
+<img width="1538" height="860" alt="Summary Dashboard" src="<img width="1537" height="863" alt="Screenshot 2026-05-20 142101" src="https://github.com/user-attachments/assets/1735d320-d9e6-4102-9fbb-e85eca5c1cc1" />
+" />
 
 ---
 
@@ -133,6 +156,6 @@ Apple-Supply-Chain-Analytics/
 │
 ├── 📁 screenshots/
 ├── 📄 APPLE_PROJECT.sql
-├── 📄 analysis.ipynb
+├── 📄 Apple_Supply_Chain.ipynb
 ├── 📄 dashboard.pbix
 └── 📄 README.md
